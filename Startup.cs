@@ -57,7 +57,6 @@ namespace MovieApi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
