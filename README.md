@@ -4,6 +4,7 @@ In order to run this project run the command "dotnet run" in the command window
 Swagger documentation can be found at {baseurl}/swagger/index.html
 
 Design decisions and compromises:
+
 This project was made in an ubuntu environment. In order to minimise risk with external services on different operating systems I decided to keep all of the data stored in memory.
 
 Were I operating in a windows environment I would have kept the same data structures for a local DB or file system, but I would have made the Ids for User and Movie primary keys. MovieId and UserId for MovieRating would have been foreign keys.
